@@ -1,0 +1,76 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:200&subset=latin,latin-ext);
+
+body {
+    font-family: 'Dosis', sans-serif;
+}
+
+aside {
+    background-color: #0e0c0d;
+    background-image: url("bg.jpg");
+    color: #ffffff;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    width: 230px;
+    padding: 10px;
+}
+
+aside, #content section {
+    min-height: 400px;
+}
+
+aside a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+aside nav .pure-button {
+    width: 110px;
+}
+
+nav.mainmenu {
+    padding-bottom: 20px;
+}
+
+nav.mainmenu li,
+nav.social li {
+    padding-bottom: 20px;
+}
+
+
+nav.projects a:hover {
+    text-decoration: underline;
+}
+
+nav.projects {
+    position: absolute;
+    bottom: 0;
+    font-size: 90%;
+}
+
+footer {
+    text-align: center;
+    color: #999;
+    font-size: 80%;
+}
+
+#content {
+    max-width: 600px;    padding: 50px 0px 50px 300px;
+}
+
+#content h2 {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+ul.posts li {
+    list-style-image: none;
+    list-style-type: none;
+    line-height: 21px;
+}
+
+ul.posts li span.date {
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+}
