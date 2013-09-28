@@ -3,7 +3,7 @@ layout: post
 title: "First demo for the partlet system"
 date: 2013-02-20 17:51
 comments: true
-categories: 
+categories: p2ee 
 ---
 
 **Tl;DR**: Today i created the first demo implementation for my [p2ee/partlets][1] project based on silex and if can be found [here][2].
