@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 description: My Personal Blog
 url: http://martin.holzhauer.eu
+timezone: Europe/Berlin
