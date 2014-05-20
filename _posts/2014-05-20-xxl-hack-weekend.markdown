@@ -3,7 +3,7 @@ layout: post
 title: "The XXL PHP Hackweekend"
 date: 2014-05-20 13:40
 comments: true
-categories: development, p2ee, php
+categories: development
 ---
 
 As the 29th of May is a Bankholiday and a Thursday here in Germany. I did what every good german would do, i took a [Brückentag][1] and now i have a 4 Days weekend.
