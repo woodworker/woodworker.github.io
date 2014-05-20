@@ -1,37 +1,19 @@
 ---
 layout: post
-title: "First demo for the partlet system"
-date: 2014-05-20 13:50
+title: "The XXL PHP Hackweekend"
+date: 2014-05-20 13:40
 comments: true
-categories: p2ee
+categories: development, p2ee, php
 ---
 
-**Tl;DR**: Today i created the first demo implementation for my [p2ee/partlets][1] project based on silex and if can be found [here][2].
+As the 29th of May is a Bankholiday and a Thursday here in Germany. I did what every good german would do, i took a [Brückentag][1] and now i have a 4 Days weekend.
 
-A while ago i started a small [fun project][3] to create a nice little web framework that is strongly inspired by my [daily work][4] and also by a very interesting [facebook talk][5]. 
-On my trainride back from FrOSCon together with 2 of my colleagues i started to hack down the first very simple implementation and i was pretty impressed how powerfull so few code can be.
+I will spend the most of this Weekend on [P2EE][2] projects to get a release of the [Perparables][3] and [Partlets][4] project out to the world.
 
-But as is it very often with "hacked down" solutions the code was a bit messy, hard dependencies, everything is connected with everything else. So i started to take this nice litte framework and split it up in nice litte pieces. And in this process this one project split up in to 3 very small librarys that i published under an MIT license.
-
-p2ee/preparables
-----------------
-
-The preparables lib is the part that is heavyly inspired by facebook technology and in short word it's a programmatically way to define dependencies.
-
-p2ee/baserequirements
----------------------
-
-As i started to implement this small webframework i added some basic requirements for my building blocks and in the work of striping it into small libs i moved the basic requirements and the coresponding resolver classes
-
-p2ee/partlets
--------------
-
-This is actually a implementation of the preparables, that turns the abstract concept of "programmatically dependency injection" into a base for hmvc-like frsameworks. Based on the partlets it is very easy to build your webapp based on self contained building blocks.
+And as we all know that hacking on projects is more fun in a group, i try to gather some other PHP Hackers for hacking together on projects.
 
 
-
-  [1]: https://github.com/P2EE/partlets
-  [2]: https://github.com/P2EE/silex-partlet-demo
-  [3]: https://github.com/P2EE
-  [4]: http://www.researchgate.net/
-  [5]: http://www.infoq.com/presentations/Evolution-of-Code-Design-at-Facebook
+  [1]: http://dict.leo.org/#/search=Br%C3%BCckentag
+  [2]: http://p2ee.github.io/
+  [3]: https://github.com/P2EE/preparables
+  [4]: https://github.com/P2EE/partlets
