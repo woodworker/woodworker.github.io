@@ -89,6 +89,8 @@ stm8flash -c stlinkv2 -p stm8s103f3 -s opt -w factory_defaults.bin
 And now the minimal code needed to blink an LED on your super cheap development board.
 The LED is connected to Pin B5, which means Port B, pin 5
 
+
+ledblink.c
 ```
 // Port B data output latch register, for setting pins HIGH or LOW)
 #define PB_ODR *(unsigned char*)0x5005
@@ -114,6 +116,21 @@ int main() {
 ```
 
 [Push–pull output](https://en.wikipedia.org/wiki/Push%E2%80%93pull_output)
+
+Now we need to compile this file
+
+```
+sdcc -lstm8 -mstm8 --out-fmt-ihx ledblink.c
+```
+
+SDCC has no compiled our C code into a "ledblink.ihx" file that can be uploaded to our devboard.
+
+```
+sudo stm8flash -c stlinkv2 -p stm8s103f3 -w ledblink.ihx
+ Determine FLASH area
+ Writing Intel hex file 189 bytes at 0x8000... OK
+ Bytes written: 189
+```
 
 Tada, now you have a blinking LED on your STM8 dev board.
 
