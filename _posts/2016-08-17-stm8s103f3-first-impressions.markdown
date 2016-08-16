@@ -89,8 +89,8 @@ stm8flash -c stlinkv2 -p stm8s103f3 -s opt -w factory_defaults.bin
 And now the minimal code needed to blink an LED on your super cheap development board.
 The LED is connected to Pin B5, which means Port B, pin 5
 
-
 ledblink.c
+
 ```
 // Port B data output latch register, for setting pins HIGH or LOW)
 #define PB_ODR *(unsigned char*)0x5005
