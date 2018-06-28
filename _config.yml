@@ -1,5 +1,4 @@
 name: Holzblog
-markdown: redcarpet
 pygments: true
 description: My Personal Blog
 url: http://martin.holzhauer.eu
