@@ -1,5 +1,5 @@
 name: Holzblog
-pygments: true
+highlighter: rouge
 description: My Personal Blog
 url: http://martin.holzhauer.eu
 timezone: Europe/Berlin
