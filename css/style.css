@@ -11,7 +11,7 @@ aside {
     position: fixed;
     top:0;
     bottom: 0;
-    width: 230px;
+    width: 300px;
     padding: 10px;
 }
 
@@ -55,7 +55,7 @@ footer {
 }
 
 #content {
-    max-width: 600px;    padding: 50px 0px 50px 300px;
+    padding: 50px 0px 50px 350px;
 }
 
 #content h2 {
@@ -71,10 +71,10 @@ ul.posts li {
 
 ul.posts li span.date {
     display: inline-block;
-    width: 80px;
+    width: 110px;
     text-align: right;
 }
 
 code {
-  font-size:12px;
+  font-size: 12px;
 }
