@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ich will J. J. Abrams Tot sehen!"
+title: "J. J. Abrams hat Star Trek kaput gemacht!"
 date: 2009-05-06 22:53:16
 comments: true
 categories: Privat
